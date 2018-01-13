@@ -1,0 +1,19 @@
+{
+  "name": "hackerCodingBaseJS",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "node_modules/.bin/mocha './**/*.spec.js'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.1.3",
+    "supertest": "^3.0.0"
+  }
+}
